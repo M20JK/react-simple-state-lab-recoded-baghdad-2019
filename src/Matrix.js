@@ -8,7 +8,7 @@ export default class Matrix extends Component {
   
   genMatrix = () => (
     this.props.values.map((rowVals , index) => (<div className="row" key={index}>{this.genRow(rowVals)}</div>)
-  )
+  ))
   
   render() {
     return (
